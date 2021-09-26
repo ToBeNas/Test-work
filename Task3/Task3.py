@@ -49,10 +49,10 @@ def ishaveidandvalue(testitem):
     ishaveid = False
     ishavevalue = False
 
-    for dick in testitem.keys():
-        if dick == "id":
+    for dc in testitem.keys():
+        if dc == "id":
             ishaveid = True
-        if dick == "value":
+        if dc == "value":
             ishavevalue = True
 
     if ishaveid and ishavevalue:
