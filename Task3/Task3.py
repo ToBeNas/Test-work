@@ -63,5 +63,5 @@ def ishaveidandvalue(testitem):
 intothedict(testjson)
 
 cr = open("report.json", "w+")
-json.dump(testjson, cr)
+json.dump(testjson, cr,  indent=2, sort_keys=True)
 cr.close()
